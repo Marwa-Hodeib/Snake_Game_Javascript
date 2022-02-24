@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #051230;
+}
+
+.game {
+	height: 400px;
+	width: 400px;
+	border: solid 5px #f14ede;
+	margin: auto;
+}
+
+.game__container {
+	padding-top: 100px;
+}
+
+.snake {
+	margin: 50px;
+	width: 10px;
+	height: 10px;
+	background-color: #4ef15a;
+}
