@@ -23,4 +23,11 @@ body {
 	width: 10px;
 	height: 10px;
 	background-color: #4ef15a;
+	animation: snakemovement 6s steps(5, jump-both) infinite;
+}
+
+@keyframes snakemovement {
+	100% {
+		transform: translateX(50px);
+	}
 }
